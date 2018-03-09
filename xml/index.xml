@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="mystyles1.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>Lumley Arguemnta</title>
          </titleStmt>
          <publicationStmt>
-            <p>Publication information</p>
+            <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
             <p>Information about the source</p>
@@ -17,8 +18,26 @@
       </fileDesc>
   </teiHeader>
   <text>
+     
       <body>
-         <p>Some text here.</p>
+         <head> Argumentum</head>
+         <p><l> Post <name> leutricas</name> calamitates <name ref="thebes">thebani</name> im<lb/>petum in <name>lacedaemona</name> fecerunt, eamque <lb/> 
+         saepenumero grauiter afflixerunt, adeo ut <lb/> faeminae <name>lacedaemoniorum</name> suis haud ra<lb/>ro fugientibus, exprobrandi cause, 
+         occur<lb/>rerunt, dicentes, se eos in uteros<lb/> suos recepturas esse.</l><l>Qui his opprobrijs <lb/> pudefacti, reurtebantur
+         <name>mantiniae</name>que victo<lb/>oria ex hostibus potiti sunt: quamuis <name>ath<lb/>eniensium</name> equites ex <name>thebanorum</name>
+         parte <lb/> fortiter pugnabunt. </l><l>Post hanc victoriam,<lb/> <name>lacedaemonij</name> ad <name>thebanos</name> miserunt ut pa<lb/>
+        cem cum illis inirent.</l><l> Quibus <name ref="#thebes">thebani</name><lb/> ea lege polliciti sunt, modo <name>messenam </name> sibi <lb/> 
+        rursus incolendam traderent, sui iur<lb/>is esse permitterent.</l><l> Atque quum nonnulli<lb/><name>lacaedemonijs</name>
+        persuaderent, ut ciuitatem<pb/>illam <name>thebanis</name> darent <name>archidamus</name> solus <lb/> eoram
+        sententiae constantissime aduersabatur<lb/> docens ciuitatem <name>thebanis</name> non tradendam <lb/> esse.</l><l> Huius 
+       <name>archidami</name> genus ad hunc <lb/> modum deducitur.</l><l> <name>archidamus</name> maior fili<lb/>us fuit 
+       <name>leuxidami</name></l>. <l><name>agis</name> vero <name>archidami</name>.</l><lb/><l> <name>ageselaus</name> <name>agidis</name> atque 
+       ex <name>agesilao</name> iunior iste <lb/> <name>archidamus</name> procreatus fuit.</l><l> auidam autem <lb/> 
+   asserunt <name>archidamum</name> <name>athenas</name> misisse, ut ha<lb/>nc orationem ab <name>isocrate</name> disceret.</l><l>
+      Alij <name>i<lb/>socratis</name> fuisse exercitationem affirmant.</l><lb/><l> Sed, utcumque erat res, multae uariaeque rati<lb/>
+         ones adferuntur quae docent <name>messenam</name> <lb/>nullo modo <name>thebanis</name> tradendam esse.</l></p> <p><l>Filia tua dominati<lb/>oni tuae deditissima <lb/> <name>joanna</name> 
+            <name>lum<lb/>leya</name></l></p>
       </body>
   </text>
 </TEI>
+
